@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <title>拼圖小遊戲</title>
+    <link rel="stylesheet" href="all.css">
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+    <canvas id="myCanvas" style="display:none"></canvas>
+    <div class="left">
+        <table>
+            <tr>
+                <td>
+                    <div id="seat-1" class="setSeat" ondrop="drop(event)" ondragover="allowDrag(event)">
+                        <div class="setImg" id="img-1" draggable="true" ondragstart="drag(event)">
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div id="seat-2" ondrop="drop(event)" ondragover="allowDrag(event)">
+                        <div class="setImg" id="img-2" draggable="true" ondragstart="drag(event)">
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div id="seat-3" ondrop="drop(event)" ondragover="allowDrag(event)">
+                        <div class="setImg" id="img-3" draggable="true" ondragstart="drag(event)">
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="seat-4" ondrop="drop(event)" ondragover="allowDrag(event)">
+                        <div class="setImg" id="img-4" draggable="true" ondragstart="drag(event)">
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div id="seat-5" ondrop="drop(event)" ondragover="allowDrag(event)">
+                        <div class="setImg" id="img-5" draggable="true" ondragstart="drag(event)">
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div id="seat-6" ondrop="drop(event)" ondragover="allowDrag(event)">
+                        <div class="setImg" id="img-6" draggable="true" ondragstart="drag(event)">
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="seat-7" ondrop="drop(event)" ondragover="allowDrag(event)">
+                        <div class="setImg" id="img-7" draggable="true" ondragstart="drag(event)">
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div id="seat-8" ondrop="drop(event)" ondragover="allowDrag(event)">
+                        <div class="setImg" id="img-8" draggable="true" ondragstart="drag(event)">
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div id="seat-9" ondrop="drop(event)" ondragover="allowDrag(event)">
+                        <div class="setImg" id="img-9" draggable="true" ondragstart="drag(event)">
+                        </div>
+                    </div>
+                </td>
+            </tr>
+
+        </table>
+
+    </div>
+    <div class="right ">
+        <div class="changePic">
+            <div id="pic1" class="setPic">
+                <img src="img/s1.jpg">
+            </div>
+            <div id="pic2" class="setPic">
+                <img src="img/s2.jpg">
+            </div>
+            <div id="pic3" class="setPic">
+                <img src="img/s3.jpg">
+            </div>
+            <div id="pic4" class="setPic">
+                <img src="img/s4.jpg">
+            </div>
+        </div>
+        <div class="btn">
+            <input type="button" value="開始" onclick="start(); time(sec);" class="setBtn" />
+        </div>
+        <div id="count" class="count">count</div>
+    </div>
+
+    <script src="all.js"></script>
+</body>
+
+</html>

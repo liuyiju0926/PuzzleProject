@@ -1,0 +1,167 @@
+.left {
+    float: left;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.right {
+    width: 400px;
+    height: 700px;
+    /* border: 1px solid black; */
+    float: right;
+    margin-top: 50px;
+    margin-right: 200px;
+}
+
+body {
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+table {
+
+    border: 3px solid black;
+}
+
+tr,
+td {
+    border: 3px solid black;
+}
+
+.setImg {
+    background-image: url(img/1.jpg);
+    width: 200px;
+    height: 200px;
+}
+
+.setSeat {
+    width: 200px;
+    height: 200px;
+}
+
+#img-1 {
+    background-position: 0px 0px;
+}
+
+#img-2 {
+    background-position: -200px 0px;
+}
+
+#img-3 {
+    background-position: -400px 0px;
+}
+
+#img-4 {
+    background-position: 0px -200px;
+}
+
+#img-5 {
+    background-position: -200px -200px;
+}
+
+#img-6 {
+    background-position: -400px -200px;
+}
+
+#img-7 {
+    background-position: 0px -400px;
+}
+
+#img-8 {
+    background-position: -200px -400px;
+}
+
+#img-9 {
+    background-position: -400px -400px;
+}
+
+.changePic {
+    text-align: center;
+
+}
+
+img {
+    cursor: pointer;
+}
+
+#pic1 {
+    border: 5px solid gray;
+    border-radius: 42px;
+    overflow: hidden;
+    margin: 5px;
+    float: left;
+    margin-left: 20px;
+}
+
+#pic2 {
+    border: 5px solid gray;
+    border-radius: 42px;
+    overflow: hidden;
+    margin: 5px;
+    float: right;
+    margin-right: 20px;
+}
+
+#pic3 {
+    border: 5px solid gray;
+    border-radius: 42px;
+    overflow: hidden;
+    margin: 5px;
+    float: left;
+    margin-left: 20px;
+}
+
+#pic4 {
+    border: 5px solid gray;
+    border-radius: 42px;
+    overflow: hidden;
+    margin: 5px;
+    float: right;
+    margin-right: 20px;
+}
+
+.btn {
+    float: left;
+    padding-top: 20px;
+    text-align-last: center;
+    width: 400px;
+    height: 50px;
+
+}
+
+.setBtn {
+
+    box-shadow: inset -33px 6px 18px -6px #276873;
+    background: linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+    background-color: #599bb3;
+    border-radius: 42px;
+    border: 5px solid #29668f;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Trebuchet MS;
+    font-size: 3rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 4px 5px 0px #3d768a;
+}
+
+.count {
+    float: left;
+    padding-top: 30px;
+    text-align: center;
+    /* line-height: 250px; */
+    width: 400px;
+    height: 200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 10rem;
+    color: burlywood;
+
+
+}
+
+.setPic:hover{
+    transform:scale(1.2);
+}
